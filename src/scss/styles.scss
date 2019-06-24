@@ -1,0 +1,30 @@
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+
+@import 'modules/_vars';
+@import 'modules/_clearfix';
+@import 'modules/_defaults';
+@import 'modules/_normalize';
+@import 'modules/_print';
+@import 'modules/Fonts';
+@import 'modules/Mixins';
+@import 'modules/Grid';
+
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
+
+@import 'partials/_header';
+@import 'partials/_nav';
+@import 'partials/_footer';
+@import 'partials/Sections';
+@import 'partials/Sidebar';
+@import 'partials/Buttons';
+@import 'partials/Sliders';
+
+//----------------------------------*\
+// PAGE
+//----------------------------------*/
+
+@import 'page/Home';

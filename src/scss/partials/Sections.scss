@@ -1,0 +1,21 @@
+.Section {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	@media screen and (min-width: 768px) {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+	&.Continue {
+		padding-bottom: 0;
+	}
+	&.InContinue {
+		padding-top: 0;
+	}
+}
+
+
+.SmallContainer {
+  max-width: 800px;
+  @media (min-width: 992px) {}
+  @media (min-width: 768px) {}
+}

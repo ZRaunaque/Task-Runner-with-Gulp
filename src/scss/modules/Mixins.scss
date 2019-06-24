@@ -1,0 +1,17 @@
+@mixin Overlay() {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@mixin Ease($time: 0.2s) {
+	transition: all ease $time;
+}
+
+@mixin FlexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
